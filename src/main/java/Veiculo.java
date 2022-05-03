@@ -56,6 +56,11 @@ public class Veiculo implements Cloneable {
 
     @Override
     public String toString() {
-        return "Veiculo "
+        return "Veiculo {" +
+                "capacidade total = " + capacidadeCargaKg +
+                ", marca = '" + marca + '\'' +
+                ", modelo = " + modelo +
+                ", carga ='" + carga + '\'' +
+                '}';
     }
 }
